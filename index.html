@@ -12,7 +12,7 @@
     <header class="header">
 
         <section class="logo">
-            <a href="../index.html"><span class="logo_color">Web</span>Studio</a>
+            <a href="../index.html" aria-label="логотип сайта" lang="EN"><span class="logo_color">Web</span>Studio</a>
         </section>
         <section>
             <nav class="nav">
@@ -23,12 +23,16 @@
                 </Ul>  
             </nav>
         </section>
-        <section class="mail">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </section>
-        <section class="tel">
-            <a href="tel:+380961111111">+38096 111 11 11</a>
-        </section>
+        <address class="nav_button">
+            <ul>
+                <li>
+                    <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="tel" href="tel:+380961111111">+38096 111 11 11</a>
+                </li>
+            </ul>
+        </address>
     </header>
     <main>
         <section class="block">
@@ -61,32 +65,34 @@
         </section>
         <section>
             <h2>Чем мы занимаемся</h2>
-            <img src="img/img1.png" alt="описание структуры сайта" width="370">
-            <img src="img/img2.png" alt="тестирование сайта на мобильном приложении" width="370">
-            <img src="img/img3.png" alt="подбор цветовой гаммы сайта" width="370">
+            <ul>
+                <li><img src="../img/img1.png" alt="описание структуры сайта" width="370"></li>
+                <li><img src="../img/img2.png" alt="тестирование сайта на мобильном приложении" width="370"></li>
+                <li><img src="../img/img3.png" alt="подбор цветовой гаммы сайта" width="370"></li>
+            </ul>
         </section>
         <section>
             <h3>Наша команда</h3>
                 <ul>
                     <li>
-                        <img src="img/img4.jpg" alt="Игорь Демьяненко, Product Designer" width="270">
+                        <img src="../img/img4.jpg" alt="Игорь Демьяненко, Product Designer" width="270">
                         <h4>Игорь Демьяненко</h4>
                         <p>Product Designer</p>
                     </li>
 
                     <li>
-                        <img src="img/img5.jpg" alt="Ольга Репина, Frontend Developer" width="270">
+                        <img src="../img/img5.jpg" alt="Ольга Репина, Frontend Developer" width="270">
                         <h4>Ольга Репина</h4>
                         <p>Frontend Developer</p>
                     </li>
 
                     <li>
-                        <img src="img/img6.jpg" alt="Николай Тарасов, Marketing" width="270">
+                        <img src="../img/img6.jpg" alt="Николай Тарасов, Marketing" width="270">
                         <h4>Николай Тарасов</h4>
                         <p>Marketing</p>
                     </li>
                     <li>
-                        <img src="img/img7.jpg" alt="Михаил Ермаков, UI Designer" width="270">
+                        <img src="../img/img7.jpg" alt="Михаил Ермаков, UI Designer" width="270">
                         <h4>Михаил Ермаков</h4>
                         <p>UI Designer</p>
                     </li>
@@ -94,13 +100,14 @@
         </section>
     </main>
     <footer>
-            <section class="logo">
-                    <a href="index.html"><span class="logo_color">Web</span>Studio</a>
-            </section>
+            <a class="logo" href="../index.html"><span class="logo_color">Web</span>Studio</a>
 
-            <h4>г. Киев, пр-т Леси Украинки, 26</h4>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <address>г. Киев, <br> пр-т Леси Украинки, 26</address>
+            
+            <address>
+                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="tel:+380991111111">+38 099 111 11 11</a>
+            </address>
     </footer>
 </body>
 
