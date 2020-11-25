@@ -4,12 +4,13 @@ body {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Raleway", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Open Sans", "Helvetica Neue", sans-serif;
 }
 a {
   text-decoration: none;
   color: black;
+}
+li {
+  list-style: none;
 }
 .header {
   width: 1600px;
@@ -32,66 +33,4 @@ a {
 }
 .logo_color {
   color: #2196f3;
-}
-.nav {
-  margin-left: 95px;
-  margin-top: 30px;
-  display: flexbox;
-}
-.nav_menu {
-  display: inline;
-  text-decoration: none;
-}
-.nav_menu_button {
-  display: inline;
-  text-decoration: #212121;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-}
-.nav_menu_button :hover {
-  cursor: pointer;
-  text-decoration: #2196f3;
-}
-.nav_button ul {
-  margin-top: 30px;
-  background-color: ;
-  text-decoration: none;
-  color: #757575;
-  display: flex;
-  list-style-type: none;
-}
-.mail {
-  margin-top: 30px;
-  margin-left: 330px;
-  text-decoration: none;
-}
-.tel {
-  margin-top: 30px;
-  margin-left: 50px;
-}
-.block {
-  width: 1600px;
-  height: 600px;
-  background-color: #2f303a;
-  display: flex;
-}
-.block-text {
-  margin-top: 200px;
-  margin-left: 450px;
-  width: 700px;
-  height: 120px;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Roboto";
-}
-h1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  color: #ffffff;
 }
