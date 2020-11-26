@@ -42,3 +42,69 @@ li {
   font-family: "Releway", sans-serif;
   color: #2196f3;
 }
+.nav {
+  display: flex;
+}
+.nav-list {
+  font-family: "Roboto" sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.contakt-mail,
+.contakt-tel {
+  font-family: "Roboto" sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+}
+.contakt-mail .contakt-tel:focus {
+  color: #2196f3;
+}
+.contakt-tel .contakt-mail:active {
+  color: #2196f3;
+}
+.slider {
+  width: 1600px;
+  height: 600px;
+  background-color: #2f303a;
+}
+.slider-text {
+  font-family: "Roboto" sans-serif;
+  font-size: 44px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 200px;
+}
+.slider-button {
+  width: 200px;
+  height: 50px;
+  margin-left: 700px;
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  align-items: center;
+  color: #ffffff;
+  font-style: normal;
+  background-color: #2196f3;
+}
+.slider-button:hover,
+.slider-button:active {
+  background-color: #ffffff;
+  color: #2196f3;
+}
+.table-lable {
+  font-family: "Roboto" sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #212121;
+  text-transform: uppercase;
+}
+.table-text {
+  font-family: "Roboto" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
