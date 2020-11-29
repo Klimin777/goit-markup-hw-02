@@ -49,12 +49,23 @@ li {
 .nav {
   display: inline;
 }
+.nav-list-gl {
+  display: inline-flex;
+  margin-left: 95px;
+  margin-top: 30px;
+}
 .nav-list {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
+  padding-left: 50px;
+}
+
+.nav-list a:hover,
+.nav-list a:active {
+  color: #2196f3;
 }
 .contakt-mail,
 .contakt-tel {
@@ -70,6 +81,7 @@ li {
 .contakt-tel .contakt-mail:active {
   color: #2196f3;
 }
+
 .slider {
   width: 1600px;
   height: 600px;
@@ -142,11 +154,17 @@ li {
   font-style: normal;
   font-size: 14px;
 }
+.filter {
+  display: inline;
+  align-items: center;
+}
 .filter-slider {
+  display: inline;
 }
 .filter-button {
-  width: 75px;
+  width: auto;
   height: 40px;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -154,4 +172,40 @@ li {
   color: #212121;
   font-style: normal;
   background-color: #f5f4fa;
+}
+.filter-button:hover,
+.filter-button:active {
+  background-color: #2196f3;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.section-navigate {
+  margin-left: 215px;
+  margin-top: 95px;
+}
+.section-box {
+  width: 1170px;
+  height: 1360px;
+  display: block;
+}
+.section-list {
+  width: 370px;
+  height: 410px;
+}
+.section-labe {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+.section-op {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
 }
